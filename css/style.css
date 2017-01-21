@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+    color:#fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+header{
+    background-color: 	#867979;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    padding: 15px;
+    top: 0px;
+    left: 0px;
+    z-index: 5px;/* prevent from overlapping*/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*box-shadow: [value of x axis][value of y axis][blur value][spread value][color value];*/
+    box-shadow: 0px 2px 30px 5px #333;
+    /*padding-right: 20px;*/
+
+}
+
+header  input{
+    width: 100%;
+    height: 50px;
+     float: left;
+    background-color:#e7e7e6;
+    opacity: 0.5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-weight: 400px;
+    font-size: 15px;
+    /*border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;*/
+    border-radius: 5px;
+    text-indent: 20px;
+    border: 0px;
+    outline: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance:none;
+    -ms-appearance:none;
+    -appearance:none;
+
+}
+header input::-webkit-input-placeholder{
+    color: rgba(0,0,0,0.75);
+}
+header input:-moz-placeholder{ /* Firefox 18 */
+    color: rgba(0,0,0,0.75);
+}
+header input::-moz-placeholder{ /* Firefox 19+ */
+    color: rgba(0,0,0,0.75);
+}
+header input::-ms-input-placeholder{
+    color: rgba(0,0,0,0.75);
+}
+header button{
+    width: 50px;
+    height: 50px;
+}
+
