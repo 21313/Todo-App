@@ -84,10 +84,6 @@ header button{
 
 
 }
-#container{
-    width: 100%;
-
-}
 
 ul.myUl{
     width: 100%;
@@ -107,8 +103,10 @@ ul#myUl li{
     padding: 8px 8px 0px 40px;
     line-height: 40px;
     margin-bottom: 10px;
+}
     
     /* make the list items unselectable */
+    ul#myUl{
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -140,9 +138,3 @@ ul#myUl li#check::before{
     height: 15px;
     /*width: */
 }
-/*.close {
-  position: absolute;
-  right: 0;
-  top: 170px;
-  padding: 12px 16px 12px 16px
-}*/
