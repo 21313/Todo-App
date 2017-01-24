@@ -1,18 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <!--Font-awsome icon link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--stylesheet link-->
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <title>Todo Application</title>
     <script src="js/app.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
         <header>
             <h1>To Do Application!</h1>
-            <input type="text" placeholder="Enter an activity!">
-            <button></button>
+            <input type="text" placeholder="Enter an activity!" id="inputItem">
+            <button id="add" onclick="funcCall();">
+        <i style="color: #867979; font-size: 16px;" class="fa fa-plus" aria-hidden="true"></i>
+            </button>  
         </header>
+            <ul id="myUl" style="list-style-type: none;">
+           <li>Have you done Conding?</li>
+           <li class="check">Perform Salah</li>
+           <li>Buy Vegetables</li>
+       </ul>
+
+        <!--script file link-->
+         <script src="js/app.js"></script>
 </body>
 </html>
 

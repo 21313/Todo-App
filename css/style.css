@@ -1,40 +1,49 @@
+body{
+    background-color: #e0e0d1;
+    padding: 150px 0 0 0;
+}
 h1{
     text-align: center;
     color:#fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+.fa fa-plus{
+    width: 20px;
+    height: 20px;
+}
 header{
+    /*text-align: center;*/
     background-color: 	#867979;
     width: 100%;
-    height: auto;
+    height: 140px;
     position: fixed;
-    padding: 15px;
+    padding: 15px 15px;
     top: 0px;
     left: 0px;
     z-index: 5px;/* prevent from overlapping*/
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     /*box-shadow: [value of x axis][value of y axis][blur value][spread value][color value];*/
-    box-shadow: 0px 2px 30px 5px #333;
+    box-shadow: 44px 62px 80px 0.15;
     /*padding-right: 20px;*/
 
 }
 
 header  input{
-    width: 100%;
+    width: 96%;
     height: 50px;
-     float: left;
+    float: left;
     background-color:#e7e7e6;
+    /*padding: 0px 60px 0px 0px;*/
     opacity: 0.5;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     font-weight: 400px;
     font-size: 15px;
-    /*border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;*/
-    border-radius: 5px;
-    text-indent: 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-indent: 18px;
     border: 0px;
     outline: none;
     box-shadow: none;
@@ -60,5 +69,80 @@ header input::-ms-input-placeholder{
 header button{
     width: 50px;
     height: 50px;
+    top: 108px;
+    right: 5.5%;
+    position: absolute;
+    padding: 15px;
+    border: 0px;
+    border-radius: 25px;
+    outline: none;
+     -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance:none;
+    -ms-appearance:none;
+    -appearance:none;
+
+
+}
+#container{
+    width: 100%;
+
 }
 
+ul.myUl{
+    width: 100%;
+    float: left;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+
+}
+ul#myUl li{
+    width: 96%;
+    float: left;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 44px 62px 80px 0.15;
+    background: #fff;
+    padding: 8px 8px 0px 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*ul#myUl li::last-of-type{
+    margin-bottom: none;
+}*/
+ul#myUl li:nth-child(even){
+    background-color: #eee;
+}
+ul#myUl li:hover{
+    background-color: #ddd;
+}
+ul#myUl li#check{
+    background-color: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+ul#myUl li#check::before{
+    content: "";
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    /*width: */
+}
+/*.close {
+  position: absolute;
+  right: 0;
+  top: 170px;
+  padding: 12px 16px 12px 16px
+}*/
